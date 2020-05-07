@@ -7,13 +7,13 @@
     <a-scene embedded arjs>
         <!-- Aframe asset system. preload assets here -->
         <a-assets>
-            <a-asset-item id="Postcard-obj" src="models/postcard/Postcard.obj"></a-asset-item>
-            <a-asset-item id="Postcard-mtl" src="models/postcard/Postcard.mtl"></a-asset-item>
+            <a-asset-item id="postcard-obj" src="models/postcard/Postcard.obj"></a-asset-item>
+            <a-asset-item id="postcard-mtl" src="models/postcard/Postcard.mtl"></a-asset-item>
         </a-assets>
 
         <!-- create your content here-->
         <a-entity position='0 1.5 0'>
-            <a-Postcard-model scale=".4 .4 .4" src="#Postcard-obj" mtl="#Postcard-mtl"></a-obj-model>
+            <a-Postcard-model scale=".4 .4 .4" src="#postcard-obj" mtl="#postcard-mtl"></a-obj-model>
                 <a-sound src="sound/happy-song.mp3" autoplay="true"></a-sound>
         </a-entity>
 
